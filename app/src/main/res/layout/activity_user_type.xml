@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/orange">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous êtes ?"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnEmployer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employeur"/>
+
+    <Button
+        android:id="@+id/btnJobSeeker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="À la recherche d’un travail"/>
+</LinearLayout>
