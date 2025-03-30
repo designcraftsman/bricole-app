@@ -8,7 +8,7 @@
         android:color="#000000"/>  <!-- Black border -->
 
     <!-- Background color (Optional) -->
-    <solid android:color="#00000"/>  <!-- White background -->
+    <solid android:color="#ffffff"/>  <!-- White background -->
     <solid android:color="@android:color/transparent"/>
     <!-- Rounded corners (Optional) -->
     <corners android:radius="20dp"/>
